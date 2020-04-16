@@ -15,7 +15,7 @@ function App() {
           href='https://reactjs.org'
           target='_blank'
           rel='noopener noreferrer'>
-          Learn React 12np
+          Learn React 12npaa
         </a>
       </header>
     </div>
