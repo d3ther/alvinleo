@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/alvinleo/static/css/main.5f361e03.chunk.css",
+    "main.js": "/alvinleo/static/js/main.4126c10e.chunk.js",
+    "main.js.map": "/alvinleo/static/js/main.4126c10e.chunk.js.map",
+    "runtime-main.js": "/alvinleo/static/js/runtime-main.606ee494.js",
+    "runtime-main.js.map": "/alvinleo/static/js/runtime-main.606ee494.js.map",
+    "static/js/2.333adc53.chunk.js": "/alvinleo/static/js/2.333adc53.chunk.js",
+    "static/js/2.333adc53.chunk.js.map": "/alvinleo/static/js/2.333adc53.chunk.js.map",
+    "index.html": "/alvinleo/index.html",
+    "precache-manifest.bcc76c3566cd887afcf0f4f9d0449af8.js": "/alvinleo/precache-manifest.bcc76c3566cd887afcf0f4f9d0449af8.js",
+    "service-worker.js": "/alvinleo/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/alvinleo/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.333adc53.chunk.js.LICENSE.txt": "/alvinleo/static/js/2.333adc53.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/alvinleo/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.606ee494.js",
+    "static/js/2.333adc53.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.4126c10e.chunk.js"
+  ]
+}
