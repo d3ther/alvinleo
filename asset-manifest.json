@@ -1,23 +1,36 @@
 {
   "files": {
-    "main.css": "/alvinleo/static/css/main.5f361e03.chunk.css",
-    "main.js": "/alvinleo/static/js/main.355bf885.chunk.js",
-    "main.js.map": "/alvinleo/static/js/main.355bf885.chunk.js.map",
-    "runtime-main.js": "/alvinleo/static/js/runtime-main.606ee494.js",
-    "runtime-main.js.map": "/alvinleo/static/js/runtime-main.606ee494.js.map",
-    "static/js/2.333adc53.chunk.js": "/alvinleo/static/js/2.333adc53.chunk.js",
-    "static/js/2.333adc53.chunk.js.map": "/alvinleo/static/js/2.333adc53.chunk.js.map",
+    "main.css": "/alvinleo/static/css/main.d1b05096.chunk.css",
+    "main.js": "/alvinleo/static/js/main.0c4dc86e.chunk.js",
+    "main.js.map": "/alvinleo/static/js/main.0c4dc86e.chunk.js.map",
+    "runtime-main.js": "/alvinleo/static/js/runtime-main.4c38fcb5.js",
+    "runtime-main.js.map": "/alvinleo/static/js/runtime-main.4c38fcb5.js.map",
+    "static/js/2.53924d41.chunk.js": "/alvinleo/static/js/2.53924d41.chunk.js",
+    "static/js/2.53924d41.chunk.js.map": "/alvinleo/static/js/2.53924d41.chunk.js.map",
     "index.html": "/alvinleo/index.html",
-    "precache-manifest.319412775e91a1589786776f132fc54c.js": "/alvinleo/precache-manifest.319412775e91a1589786776f132fc54c.js",
+    "precache-manifest.a81e8d850a8630fb8a5966a69c51dcc4.js": "/alvinleo/precache-manifest.a81e8d850a8630fb8a5966a69c51dcc4.js",
     "service-worker.js": "/alvinleo/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/alvinleo/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.333adc53.chunk.js.LICENSE.txt": "/alvinleo/static/js/2.333adc53.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/alvinleo/static/media/logo.5d5d9eef.svg"
+    "static/css/main.d1b05096.chunk.css.map": "/alvinleo/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.53924d41.chunk.js.LICENSE.txt": "/alvinleo/static/js/2.53924d41.chunk.js.LICENSE.txt",
+    "static/media/Airline1.png": "/alvinleo/static/media/Airline1.3027a6b6.png",
+    "static/media/Airline2.png": "/alvinleo/static/media/Airline2.6c14e460.png",
+    "static/media/Citilink.gif": "/alvinleo/static/media/Citilink.52927198.gif",
+    "static/media/Email2.png": "/alvinleo/static/media/Email2.f537afd6.png",
+    "static/media/EmailPDF1.png": "/alvinleo/static/media/EmailPDF1.81a5e6ed.png",
+    "static/media/HC1.png": "/alvinleo/static/media/HC1.b5400791.png",
+    "static/media/HC1_1.png": "/alvinleo/static/media/HC1_1.9a36f516.png",
+    "static/media/HC2.png": "/alvinleo/static/media/HC2.1a6988e1.png",
+    "static/media/LazadaAnniv.png": "/alvinleo/static/media/LazadaAnniv.7449b96a.png",
+    "static/media/Me1.JPG": "/alvinleo/static/media/Me1.e896b2f1.JPG",
+    "static/media/Result1.gif": "/alvinleo/static/media/Result1.3e9d3ec5.gif",
+    "static/media/SampeDataEmailPDF.png": "/alvinleo/static/media/SampeDataEmailPDF.f116d02e.png",
+    "static/media/logo.svg": "/alvinleo/static/media/logo.5d5d9eef.svg",
+    "static/media/map.png": "/alvinleo/static/media/map.32579b67.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.606ee494.js",
-    "static/js/2.333adc53.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.355bf885.chunk.js"
+    "static/js/runtime-main.4c38fcb5.js",
+    "static/js/2.53924d41.chunk.js",
+    "static/css/main.d1b05096.chunk.css",
+    "static/js/main.0c4dc86e.chunk.js"
   ]
 }
