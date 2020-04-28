@@ -8,8 +8,7 @@ import HelpCenter from "./HelpCenter";
 import LazadaAnniversary from "./LazadaAnniversary";
 import About from "./About";
 import Footer from "./Footer";
-import { BrowserRouter as Router, Link, Switch, Route } from "react-router-dom";
-import "./App.css";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 const navData = {
   name: "Alvin Leonardo",
@@ -53,12 +52,12 @@ const homeData = {
         year: 2020,
         link: `/alvinleo/email-pdf`,
       },
-      {
-        photo: require("./assets/image/LazadaAnniv.png"),
-        name: "Lazada Anniversary",
-        year: 2016,
-        link: `/alvinleo/lazada-anniversary`,
-      },
+      // {
+      //   photo: require("./assets/image/LazadaAnniv.png"),
+      //   name: "Lazada Anniversary",
+      //   year: 2016,
+      //   link: `/alvinleo/lazada-anniversary`,
+      // },
     ],
   },
 };
