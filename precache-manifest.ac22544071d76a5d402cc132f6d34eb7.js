@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "37e2a6d8c618fd984418cf9d840ce50a",
+    "revision": "c93da868064a63e2aa3527bc3fa508b0",
     "url": "/alvinleo/index.html"
   },
   {
-    "revision": "629101c29b925a7ae92d",
+    "revision": "7c646d6d37c5c90ecb6c",
     "url": "/alvinleo/static/css/main.d1b05096.chunk.css"
   },
   {
-    "revision": "7fe4dfa19241055c11e2",
-    "url": "/alvinleo/static/js/2.53924d41.chunk.js"
+    "revision": "fc78865de6961d3c3b5c",
+    "url": "/alvinleo/static/js/2.89ea3765.chunk.js"
   },
   {
     "revision": "066a3b5f5d30e9efcd56434ebe4db621",
-    "url": "/alvinleo/static/js/2.53924d41.chunk.js.LICENSE.txt"
+    "url": "/alvinleo/static/js/2.89ea3765.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "629101c29b925a7ae92d",
-    "url": "/alvinleo/static/js/main.0c4dc86e.chunk.js"
+    "revision": "7c646d6d37c5c90ecb6c",
+    "url": "/alvinleo/static/js/main.46762665.chunk.js"
   },
   {
     "revision": "35848f214844affa14aa",
@@ -70,10 +70,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f116d02e44f2f88e0bb7392761d14f18",
     "url": "/alvinleo/static/media/SampeDataEmailPDF.f116d02e.png"
-  },
-  {
-    "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
-    "url": "/alvinleo/static/media/logo.5d5d9eef.svg"
   },
   {
     "revision": "32579b67cda2583196a911ea324f433b",
