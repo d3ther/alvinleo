@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Button, Image, StyleSheet, View, Text } from "react-native";
+import React from "react";
+import { Image, StyleSheet, View, Text } from "react-native";
 import Token from "./Token";
 import Map from "./assets/image/map.png";
 import { NavLink } from "react-router-dom";

@@ -1,7 +1,6 @@
 import React from "react";
 import { Image, StyleSheet, Text, View, ScrollView } from "react-native";
 import Token from "./Token";
-import { NavLink } from "react-router-dom";
 
 function About(props) {
   const { aboutEdu, workExp, skillExpertise, contact } = props.data;

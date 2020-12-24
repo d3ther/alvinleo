@@ -1,9 +1,6 @@
 import React from "react";
-import { Button, Image, StyleSheet, Text, View } from "react-native";
-import logo from "./logo.svg";
+import { Image, StyleSheet, Text, View } from "react-native";
 import Token from "./Token";
-import { BrowserRouter as Router, Link, Switch, Route } from "react-router-dom";
-import "./App.css";
 
 function Footer(props) {
   const { aboutEdu, contact } = props.aboutData;

@@ -1,8 +1,6 @@
 import React from "react";
 import { Image, StyleSheet, Text, View, ScrollView } from "react-native";
 import Token from "./Token";
-import { BrowserRouter as Router, Link, Switch, Route } from "react-router-dom";
-import "./App.css";
 
 function Brief(props) {
   const { title, briefPicture, briefExplanations } = props;

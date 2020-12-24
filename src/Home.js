@@ -1,8 +1,7 @@
 import React from "react";
 import { Image, StyleSheet, Text, View, ScrollView } from "react-native";
 import Token from "./Token";
-import { BrowserRouter as Router, Link, Switch, Route } from "react-router-dom";
-import "./App.css";
+import { Link } from "react-router-dom";
 
 function Home(props) {
   const { name, content, works } = props.data;

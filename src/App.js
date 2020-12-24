@@ -6,6 +6,7 @@ import LandingPage from "./LandingPage";
 import EmailPDF from "./EmailPDF";
 import HelpCenter from "./HelpCenter";
 import LazadaAnniversary from "./LazadaAnniversary";
+import RedJacket from "./RedJacket";
 import About from "./About";
 import Footer from "./Footer";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
@@ -51,6 +52,12 @@ const homeData = {
         name: "Landing Page",
         year: 2020,
         link: `/alvinleo/email-pdf`,
+      },
+      {
+        photo: require("./assets/image/Email2.png"),
+        name: "Landing Page",
+        year: 2020,
+        link: `/alvinleo/red-jacket`,
       },
       // {
       //   photo: require("./assets/image/LazadaAnniv.png"),
@@ -206,6 +213,84 @@ const emailPDFData = {
   },
 };
 
+const redJacketData = {
+  briefPicture: [
+    require("./assets/image/redjacket/main2.png"),
+    require("./assets/image/redjacket/main3.png"),
+  ],
+  title: "Traveloka's Refund History Page",
+  briefExplanations: [
+    "As many Traveloka customers have been refunding their itineraries for the past months, they found that the information that they find in the Refund History page is not sufficient enough for them which they usually end up contacting the ops team. This also leads to a much bigger problem, the raise of ops cost to responding to customer’s questions regarding their refund status.",
+    "Given the chart, it is very noticeable that ratios have been going lower, this indicates information that Traveloka provides currently is not sufficient for customer’s needs. Therefore by discovering these pain points, our team has to tackle the issue in the Refund History page.",
+  ],
+  process: {
+    title: "My Responsibility",
+    flow: "Usability Testing, Prototyping, Hifi Creation",
+  },
+  steps: [
+    {
+      picture: require("./assets/image/redjacket/data.png"),
+      title: "Problem to Solve",
+      content: [
+        "The information that users read in the Refund History page is often ambiguous and raises questions. The lack of transparency also raises some questions for some users regarding the amount of money that users will get in the end.",
+      ],
+    },
+    {
+      picture: "",
+      title: "Design Challenge",
+      content: [
+        "How might we provide relevant and specific information to users therefore eliminating their desire to contacting ops.",
+      ],
+    },
+    {
+      picture: "",
+      title: "Process",
+      content: [
+        "We interviewed 5 Traveloka users, they differ from already refunded previously and never refunded. The user differentiation helped us to get a better understanding of what interaction they would have when dealing with the refund process, also this helped our team to understand the information priority, their understanding of the proposed concept and their behavior afterwards after reviewing the Refund History page. Once I finished interviewing the participants, I started to conduct synthesis and ideation sessions. Turned out most participants questioned the breakdown fee in payment card.",
+      ],
+    },
+    {
+      picture: require("./assets/image/redjacket/findings.png"),
+      title: "Findings",
+      content: [
+        "Users require the information of how much they will get from the refund process.",
+        "The first thing that comes to users’ mind is to check how much they will get from the refund process. Given only “estimated refund fees” as their main source of information, they will immediately seek further information in the Help Center page / call Customer Service for further information.",
+        "Users seek direct answer from the Help Center",
+        "When users seek information regarding their refund amount, their state of mind tends to be in panic mode, which immediately refuses to read long lines of text regarding their refund fee. They would rather seek a direct answer for this situation.",
+        "Complete information for Related Refund card",
+        "Users understand that the related refund connects with their other refund requests but the information should be more clear regarding which this refund request refers to. Therefore adding more information regarding the product would reduce their time needed to recognize the refund request.",
+      ],
+    },
+    {
+      picture: require("./assets/image/redjacket/prototype.gif"),
+      title: "Prototype",
+      content: [
+        "Further investigation was needed to confirm the users comprehension & discoverability towards the Refund History page, I created several prototype versions for both happy path & disruptions (cancelled & delayed case). Both focusing on the payment confirmation (pre & post payment out), related refund & related information. During prototyping, I worked closely with the Copywriter & Interaction Designer in order to understand their point of view for this specific page whether they had questions in mind, therefore we can clarify together later during the usability testing.",
+      ],
+    },
+    {
+      picture: require("./assets/image/redjacket/interview.png"),
+      title: "Usability Testing",
+      content: [
+        "In order to recognize the weaknesses & strengths of the design proposal, I conducted a usability testing with 5 participants. The participants were grouped into 2 scenarios, where one having a happy path while the other having disruptions (i.e. delayed & cancelled). ",
+      ],
+    },
+  ],
+  finalDesign: {
+    pictures: [
+      require("./assets/image/redjacket/finaldesignjuga.png"),
+      require("./assets/image/redjacket/finaldesign.gif"),
+    ],
+    title: ["Final Design"],
+  },
+  thirdStep: {
+    picture: require("./assets/image/EmailPDF1.png"),
+    content: [
+      "Once I finished developing the layout, I needed to conduct a meeting with the entire team. To get unbiased comments, I had to get feedback regarding the layout that I developed to see if anything was lacking. Personally, this particular type of tasks made me to become a Front End Engineer, as I was the one who wired the data coming up from Back End Engineer. Once everything was clear and good to go, I would again re-check the components and layout to see if there is any problem or any error to the inputted content. Once everything was good, I launched both EMail & PDF templates to production.",
+    ],
+  },
+};
+
 const aboutData = {
   aboutEdu: {
     title: "About & Education",
@@ -312,6 +397,10 @@ function App() {
             render={(props) => (
               <About {...props} data={aboutData} work={homeData.works} />
             )}
+          />
+          <Route
+            path='/alvinleo/red-jacket'
+            render={(props) => <RedJacket {...props} data={redJacketData} />}
           />
           <Route
             path='/alvinleo/lazada-anniversary'
